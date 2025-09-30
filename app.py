@@ -28,7 +28,7 @@ generos = {
 
 
 st.sidebar.title("Playlists do Skyline")
-st.sidebar.image("SKYLINE.PNG")
+st.sidebar.image("SKYLINE.png")
 genero = st.sidebar.selectbox("Selecione um genero musical",generos.keys())
 artista = st.sidebar.selectbox("Selecione o artista", generos[genero].keys())
 
@@ -94,4 +94,5 @@ Calvin Cordozar Broadus, Jr. (Long Beach, 20 de outubro de 1971), mais conhecido
 [a] é um rapper, compositor, produtor musical e ator estadunidense.[5] Enraizado no hip-hop da Costa Oeste, ele é amplamente considerado um dos maiores e mais influentes rappers de todos os tempos.                    
 [6][7][8] Conhecido por suas letras arrastadas e características—que frequentemente usam rimas melódicas, repetições, jogo de palavras,                 
 frases lacônicas, síncopes e aliterações—sua música frequentemente aborda o estilo de vida e a cultura da Costa Oeste e questões sociais como violência armada e estabilidade para os jovens.[9][10]
+
 ''')
